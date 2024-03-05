@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelService.API", "PixelService.API\PixelService.API.csproj", "{A252DFF8-389B-423D-BBAF-27078FEF5230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelService.Features", "PixelService.Features\PixelService.Features.csproj", "{C4071F8B-3C44-40A4-99C8-6B6D8561F3F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelService.Infrastructure", "PixelService.Infrastructure\PixelService.Infrastructure.csproj", "{3750DD06-E95C-4E9D-8A04-86406AEEDF88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelService.Domain", "PixelService.Domain\PixelService.Domain.csproj", "{1018B576-5D8C-4013-9233-64036FEDE9BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{551B43AA-CA69-490E-93D7-69A617050328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelService.Features.Tests", "PixelService.Features.Tests\PixelService.Features.Tests.csproj", "{5FEC57F7-8BB0-4FB8-8319-D58B54CE26D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A252DFF8-389B-423D-BBAF-27078FEF5230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A252DFF8-389B-423D-BBAF-27078FEF5230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A252DFF8-389B-423D-BBAF-27078FEF5230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A252DFF8-389B-423D-BBAF-27078FEF5230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4071F8B-3C44-40A4-99C8-6B6D8561F3F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4071F8B-3C44-40A4-99C8-6B6D8561F3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4071F8B-3C44-40A4-99C8-6B6D8561F3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4071F8B-3C44-40A4-99C8-6B6D8561F3F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3750DD06-E95C-4E9D-8A04-86406AEEDF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3750DD06-E95C-4E9D-8A04-86406AEEDF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3750DD06-E95C-4E9D-8A04-86406AEEDF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3750DD06-E95C-4E9D-8A04-86406AEEDF88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1018B576-5D8C-4013-9233-64036FEDE9BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1018B576-5D8C-4013-9233-64036FEDE9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1018B576-5D8C-4013-9233-64036FEDE9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1018B576-5D8C-4013-9233-64036FEDE9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FEC57F7-8BB0-4FB8-8319-D58B54CE26D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FEC57F7-8BB0-4FB8-8319-D58B54CE26D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FEC57F7-8BB0-4FB8-8319-D58B54CE26D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FEC57F7-8BB0-4FB8-8319-D58B54CE26D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FEC57F7-8BB0-4FB8-8319-D58B54CE26D4} = {551B43AA-CA69-490E-93D7-69A617050328}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+﻿{
+  "profiles": {
+    "PixelService.API": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:44301",
+      "environmentVariables": {
+        "ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+version: '3.8'
+services:
+  pixel_service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: build-env
+    volumes:
+      - ./PixelService:/app
+    ports:
+      - "8080:80"
+    depends_on:
+      - rabbitmq
+      - mysql
+
+  storage_service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: build-env
+    volumes:
+      - ./StorageService:/app
+    ports:
+      - "8081:80"
+    depends_on:
+      - rabbitmq
+      - mysql
+
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+
+  mysql:
+    image: "mysql:5.7"
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: mydatabase
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+volumes:
+  mysql-data:
